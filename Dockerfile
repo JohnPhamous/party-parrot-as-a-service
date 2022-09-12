@@ -28,7 +28,7 @@ RUN apt-get install libsm6 libxext6 libgl1-mesa-glx -y
 # RUN pipenv sync
 RUN pip install Pillow
 RUN pip install 'autocrop==1.2.0'
-RUN pip install opencv-contrib-python-headless
+RUN pip install 'opencv-contrib-python-headless==4.5.4.60'
 RUN pip install flask
 RUN pip install python-dotenv
 RUN pip install supabase
