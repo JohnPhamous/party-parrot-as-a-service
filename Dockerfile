@@ -26,7 +26,7 @@ RUN apt-get install libsm6 libxext6 libgl1-mesa-glx -y
 
 # RUN pip3 install pipenv
 # RUN pipenv sync
-RUN pip install opencv-contrib-python<4.3
+RUN pip install "opencv-contrib-python<4.3"
 RUN pip install Pillow
 RUN pip install autocrop
 RUN pip install flask
